@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%, rgba(0, 0, 0, 0.5)30%),url(../images/2.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%, rgba(0, 0, 0, 0.5)30%),url(./2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

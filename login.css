@@ -1,0 +1,51 @@
+form{
+    margin: 2rem;
+    width: 50%;
+    padding: 2rem;
+   
+}
+form p{
+    color: #a32cc4;
+}
+
+@media screen and (max-width:750px) {
+    form{
+        width: 60%;
+        padding: 2rem;
+    }
+    form p{
+        
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:500px) {
+    form{
+        width: 80%;
+        padding: 2rem;
+    }
+    form p{
+        
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:350px) {
+    form{
+        width: 90%;
+        padding: 2rem;
+    }
+    form p{
+        
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:300px) {
+    form{
+        margin: 1rem;
+        width: 100%;
+        padding: 2rem;
+    }
+    form p{
+        
+        font-size: 1.1rem;
+    }
+}

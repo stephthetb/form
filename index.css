@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%, rgba(0, 0, 0, 0.5)30%),url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+header h1{
+    padding: 0 0 0 2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #b399d4;
+}
+.intro{
+  padding: 5rem 0 0 4rem;
+}
+.intro p{
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+}
+.intro h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:#b399d4;
+}
+.but{
+    padding: 0 0 0 6rem;
+}
+.but a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    margin-left: 1rem;
+    background: #a32cc4;
+    border: none;
+    border-radius: 0.4rem;
+    outline: 0;
+    padding: 1rem 2.5rem;
+}
+.but p{
+    color: #fff;
+}
+.contact{
+    padding: 0 0 0 7rem;
+}
+.contact p{
+    color: #fff;
+}
+.contact a{
+    padding: 0 1rem;
+    color: #b399d4;
+}
+
+@media screen and (max-width:700px){
+    .intro p{
+        font-size: 2rem;
+    }
+    .intro h2{
+        font-size: 2.5rem;
+        
+    }
+}
+@media screen and (max-width:450px) {
+    .but{
+        padding: 0 0 0 2.5rem;
+    } 
+    .contact{
+        padding: 0 0 0 4rem;
+    }
+}
+@media  screen and (max-width:370px) {
+    .intro{
+        padding: 5rem 0 0 1rem;
+      }
+    .but{
+        padding: 0 0 0 0.1rem;
+    } 
+    .contact{
+        padding: 0 0 0 0.2rem;
+    }
+}
+@media screen and (max-width:340px) {
+    .intro p{
+        font-size: 1.5rem;
+    }
+    .intro h2{
+        font-size: 2rem;
+        
+    }
+    button{
+        padding: 1rem 1rem ;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:290px) {
+    .contact a{
+        padding: 0 0.5rem;
+       
+    }
+}
